@@ -463,9 +463,6 @@ if (wb_write16_strict(REG_SETTLE_2, settle_reg) != 0) return -EIO;
 
 int main(void)
 {
-<<<<<<< HEAD
-        return 4;
-=======
     LOG_INF("=== AD5933 CALIBRATION THEN MEASURE (log sweep) ===");
     LOG_INF("Build: %s %s", __DATE__, __TIME__);
 
